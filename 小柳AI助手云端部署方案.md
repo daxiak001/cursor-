@@ -503,3 +503,5 @@ tar -czf backup_$(date +%Y%m%d_%H%M%S).tar.gz .env docker-compose.yml nginx/
 ---
 
 **总结**: 推荐使用容器化部署方案，成本适中，部署简单，维护方便。可以根据实际需求选择合适的云平台和配置。
+
+

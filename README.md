@@ -12,7 +12,25 @@
 - 🛠️ 性能优化
 - 🧪 测试生成
 
-## 部署说明
+## 🚀 快速部署
+
+### 方式一：Railway部署（推荐 - 稳定可靠）
+
+1. **一键部署**
+   - 访问 [Railway.app](https://railway.app)
+   - 使用GitHub登录
+   - 点击 "New Project" → "Deploy from GitHub repo"
+   - 选择此仓库
+
+2. **配置环境变量**
+   - 在 Railway Dashboard 中添加：
+   - `CLAUDE_API_KEY` = 你的Claude API密钥
+
+3. **获取部署URL**
+   - 部署完成后，Railway会自动分配URL
+   - 例如：`https://xiaoliu-production.up.railway.app`
+
+### 方式二：Vercel部署（快速）
 
 1. Fork 此仓库
 2. 在 Vercel 中导入项目
