@@ -4,4 +4,8 @@ httpx==0.25.2
 pydantic==2.5.0
 python-multipart==0.0.6
 
+# 测试工具（可选）
+requests==2.31.0
+colorama==0.4.6
+
 

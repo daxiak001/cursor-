@@ -1,0 +1,21 @@
+{
+  "name": "小柳AI助手",
+  "description": "基于Claude的智能AI助手，支持文档生成、代码分析、配色方案等功能",
+  "repository": "https://github.com/daxiak001/cursor-",
+  "logo": "https://railway.app/brand/logo-light.svg",
+  "keywords": ["ai", "claude", "chatbot", "assistant", "fastapi"],
+  "env": {
+    "CLAUDE_API_KEY": {
+      "description": "你的Claude API密钥",
+      "required": true
+    }
+  },
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "uvicorn api.main:app --host 0.0.0.0 --port $PORT",
+    "healthcheckPath": "/health"
+  }
+}
+
